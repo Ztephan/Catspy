@@ -1,7 +1,8 @@
 require 'listen'
 require 'nokogiri'
+current_directory = Dir.pwd
 
-listener = Listen.to('/home/catsby/Ruby') do |modified, added, removed|
+listener = Listen.to(current_directory) do |modified, added, removed|
   puts "modified absolute path: #{modified}"
   puts "added absolute path: #{added}"
   puts "removed absolute path: #{removed}"
