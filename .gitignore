@@ -10,7 +10,7 @@ $RECYCLE.BIN/
 
 
 # Image folder
-Catspy/images
+images/
 
 # Windows Installer files
 *.cab
