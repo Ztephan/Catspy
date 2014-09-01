@@ -11,6 +11,7 @@ $RECYCLE.BIN/
 
 # Image folder
 images/
+pages/
 
 # Windows Installer files
 *.cab
@@ -30,8 +31,7 @@ images/
 .LSOverride
 
 # Icon must ends with two \r.
-Icon
-
+Icon 
 # Thumbnails
 ._*
 
